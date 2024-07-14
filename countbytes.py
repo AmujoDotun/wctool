@@ -2,7 +2,7 @@
 import sys
 import os
 
-def count_byte(file_path):
+def count_bytes(file_path):
     try:
         with open(file_path, 'rb') as file:
             data = file.read()
